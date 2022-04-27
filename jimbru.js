@@ -2996,12 +2996,12 @@ case 'databasemenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            jpegThumbnail: fs.readFileSync('./Media/Jimbru.jpg')},
+                            hydratedFooterText: `JIMBROOTTAN`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    displayText: 'GITHUB 📍',
+                                    url: 'https://github.com/Mikhaiel/jinnh-'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3028,7 +3028,7 @@ case 'anonymouschatmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./Media/Jimbru.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
