@@ -871,7 +871,7 @@ case 'grupinfo': case 'groupinfo':
 try{
  var pic = await XeonBotInc.getProfilePicture(m.chat)
   } catch {
- var pic = 'https://i.ibb.co/Tq7d7TZ/age-hananta-495-photo.png'
+ var pic = 'https://telegra.ph/file/e5f7ef3d8d992ff296d4d.png'
   }
 let ingfo = `*G R O U P  I N F O*\n\n*Name :* ${groupName}\n*ID Group :* ${m.chat}\n*Made :* ${moment(`${groupMetadata.creation}` * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss')}\n*Group Owner:* @${groupMetadata.owner.split('@')[0]}\n*Number Of Admins :* ${groupAdmins.length}\n*Number Of Participants :* ${participants.length}\n*Desc :* \n${groupMetadata.desc}`
 ds = await getBuffer(pic)
@@ -922,24 +922,18 @@ let teks = `══☆〘 *Tag All* 〙☆══
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
- 
-├ Total: ${vote[m.chat][1].length}
-
- 
+┌〔 UPVOTE 〕 
+├ Total: ${vote[m.chat][1].length} 
 └────
 
 ┌〔 DEVOTE 〕
- 
-├ Total: ${vote[m.chat][2].length}
-
- 
+├ Total: ${vote[m.chat][2].length} 
 └────
 
 *${prefix}deletevote* - to delete votes`
 let buttonsVote = [
-  {buttonId: `${prefix}upvote`, buttonText: {displayText: '👍🏻Up-Vote👍🏻'}, type: 1},
-  {buttonId: `${prefix}devote`, buttonText: {displayText: '👎🏻De-Vote👎🏻'}, type: 1}
+  {buttonId: `${prefix}upvote`, buttonText: {displayText: 'Up-Vote👍🏻'}, type: 1},
+  {buttonId: `${prefix}devote`, buttonText: {displayText: 'De-Vote👎🏻'}, type: 1}
 ]
 
             let buttonMessageVote = {
@@ -963,24 +957,20 @@ let buttonsVote = [
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
- 
+┌〔 UPVOTE 〕 
 ├ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
- 
 └────
 
-┌〔 DEVOTE 〕
- 
+┌〔 DEVOTE 〕 
 ├ Total: ${vote[m.chat][2].length}
-${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
- 
+${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')} 
 └────
 
 *${prefix}hapusvote* - to delete votes`
             let buttonsUpvote = [
-              {buttonId: `${prefix}upvote`, buttonText: {displayText: '👍🏻Up-Vote👍🏻'}, type: 1},
-              {buttonId: `${prefix}devote`, buttonText: {displayText: '👎🏻De-Vote👎🏻'}, type: 1}
+              {buttonId: `${prefix}upvote`, buttonText: {displayText: 'Up-Vote👍🏻'}, type: 1},
+              {buttonId: `${prefix}devote`, buttonText: {displayText: 'De-Vote👎🏻'}, type: 1}
             ]
 
             let buttonMessageUpvote = {
@@ -1005,18 +995,14 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
- 
+┌〔 UPVOTE 〕 
 ├ Total: ${vote[m.chat][1].length}
-${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
- 
+${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')} 
 └────
 
 ┌〔 DEVOTE 〕
- 
 ├ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
- 
 └────
 
 *${prefix}hapusvote* - to delete votes`
@@ -1081,8 +1067,8 @@ break
                     await XeonBotInc.groupSettingUpdate(m.chat, 'not_announcement').then((res) => reply(`Successful Opening The Group`)).catch((err) => reply(jsonformat(err)))
                 } else {
                 let buttons = [
-                        { buttonId: 'group open', buttonText: { displayText: '⭕Open⭕' }, type: 1 },
-                        { buttonId: 'group close', buttonText: { displayText: '🚫Close🚫' }, type: 1 }
+                        { buttonId: 'group open', buttonText: { displayText: 'Open⭕' }, type: 1 },
+                        { buttonId: 'group close', buttonText: { displayText: 'Close🚫' }, type: 1 }
                     ]
                     await XeonBotInc.sendButtonText(m.chat, buttons, `Group Mode`, XeonBotInc.user.name, m)
 
@@ -1141,8 +1127,8 @@ case 'antilink':
                 m.reply(`Anti Wa.me is not activated!`)
                 } else {
                  let buttons = [
-                        { buttonId: 'antiwame on', buttonText: { displayText: '⭕On⭕' }, type: 1 },
-                        { buttonId: 'antiwame off', buttonText: { displayText: '❌Off❌' }, type: 1 }
+                        { buttonId: 'antiwame on', buttonText: { displayText: 'ON' }, type: 1 },
+                        { buttonId: 'antiwame off', buttonText: { displayText: 'OFF' }, type: 1 }
                     ]
                     await XeonBotInc.sendButtonText(m.chat, buttons, `Mode Anti Wa.me`, XeonBotInc.user.name, m)
                 }
@@ -1161,8 +1147,8 @@ case 'antilink':
                 reply(`${XeonBotInc.user.name} has been unmuted in this group!`)
                 } else {
                  let buttons = [
-                        { buttonId: 'mute on', buttonText: { displayText: '⭕On⭕' }, type: 1 },
-                        { buttonId: 'mute off', buttonText: { displayText: '❌Off❌' }, type: 1 }
+                        { buttonId: 'mute on', buttonText: { displayText: 'ON' }, type: 1 },
+                        { buttonId: 'mute off', buttonText: { displayText: 'OFF' }, type: 1 }
                     ]
                     await XeonBotInc.sendButtonText(m.chat, buttons, `Mute Bot`, XeonBotInc.user.name, m)
                 }
@@ -1491,7 +1477,7 @@ case 'antilink':
         n = result
         images = n[Math.floor(Math.random() * n.length)].url
         let buttons = [
-                    {buttonId: `gimage ${text}`, buttonText: {displayText: '➡️Next Image➡️'}, type: 1}
+                    {buttonId: `gimage ${text}`, buttonText: {displayText: 'Next Image➡️'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: images },
@@ -2421,22 +2407,23 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./Media/Jimbru.jpg')},
-                            hydratedFooterText: `Hi 🤚 ${pushname}
-How Are You? 😊
+                            hydratedFooterText: `◈ ʜᴇʏ🤚 ${pushname}
+ᴡʜᴇɴ ʏᴏᴜ ʜᴀᴠᴇ ᴀ ᴅʀᴇᴀᴍ, ʏᴏᴜ’ᴠᴇ ɢᴏᴛ ᴛᴏ ɢʀᴀʙ ɪᴛ ᴀɴᴅ ɴᴇᴠᴇʀ ʟᴇᴛ ɢᴏ.”
+— ᴄᴀʀᴏʟ ʙᴜʀɴᴇᴛᴛ
 
 
 ❏「 INFO BOT 」
 
-𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botnma}
-𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownernma}
-𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
-𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+◈ ꜱᴘᴇᴇᴅ : ${latensie.toFixed(4)} miliseconds
+◈ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
+◈ ʙᴏᴛ ɴᴀᴍᴇ : ${global.botnma}
+◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${global.ownernma}
+◈ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ : ${global.owner}
+◈ ʜᴏꜱᴛ ɴᴀᴍᴇ : ${os.hostname()}
+◈ ᴘʟᴀᴛꜰᴏʀᴍ : ${os.platform()}
 
 
-Please Select Button Below
+◈ ᴘʟᴇᴀꜱᴇ ꜱᴇʟᴇᴄᴛ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ◈
 `,
                             hydratedButtons: [{
                                 urlButton: {
