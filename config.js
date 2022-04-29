@@ -17,14 +17,14 @@ global.APIKeys = {
 }
 
 //═══════[modification]════════\\
-global.owner = ['919544846609'] //owner number, u can put multiple owner number, within quotations and seperated by comma.
-global.pemilik = ['919074210316'] //another owner number
-global.premium = ['919544846609'] //premium number
-global.pengguna = 'Mikhaiel' //username
-global.botnma = 'JIMBRU-MD' //bot name
-global.ownernma = 'MIKHAIEL' //owner name
-global.packname = 'Jimbru' //sticker package name
-global.author = 'By Mikhaiel' //sticker author name
+global.owner = ['919746319042'] //owner number, u can put multiple owner number, within quotations and seperated by comma.
+global.pemilik = ['919746319042'] //another owner number
+global.premium = ['919746319042'] //premium number
+global.pengguna = 'ɴᴇᴇʟɪᴍᴀ' //username
+global.botnma = 'ᴊɪᴍʙʀᴜ ᴠ4' //bot name
+global.ownernma = 'ɴᴇᴇʟɪᴍᴀ' //owner name
+global.packname = 'ɴᴇᴇʟɪᴍᴀ' //sticker package name
+global.author = 'ʙʏ ɴᴇᴇʟɪᴍᴀ' //sticker author name
 global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
 global.sp = '⭔' //design
@@ -41,7 +41,7 @@ global.mess = {
 }
 global.limitawal = {
     premium: "Infinity", //premium user limit
-    free: 100 //free user limit
+    free: 1000 //free user limit
 }
 global.thumb = fs.readFileSync('./Media/Jimbru.jpg')
 
