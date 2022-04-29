@@ -585,13 +585,71 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
 	    case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/e5f7ef3d8d992ff296d4d.jpg' }, caption: `*Hi bro ${m.pushName}*\n\n Bot Rental Price\n⭔ 500 INR Per Group via Gpay/paytm/phonepe 1 Month\n\nFor more details, you can chat with the owner\nhttps://wa.me/919544846609 (Owner)` }, { quoted: m })
-            }
+                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/1f735719f3e0736761eae.jpg' }, caption: `ʜᴇʏ ${m.pushName} \n ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ꜰᴏᴜɴᴅ ᴀɴʏᴛʜɪɴɢ ᴜꜱᴇꜰᴜʟ ᴀɴᴅ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ꜱᴜᴘᴘᴏʀᴛ ᴍᴇ, ᴛʜᴇɴ ʙᴜʏ ᴍᴇ ᴀ ᴄᴏꜰꜰᴇᴇ  ʙᴜʏ ᴍᴇ ᴀ ᴄᴏꜰꜰᴇᴇ . ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄᴏɴᴛʀɪʙᴜᴛᴇ ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ !  ᴀɴᴅ ᴍᴀɴʏ ᴛʜᴀɴᴋꜱ ɪɴ ᴀᴅᴠᴀɴᴄᴇ.  ꜰᴏʀ ᴀꜱ ᴡᴇ ᴡᴇʟʟ ᴋɴᴏᴡ \n ᴅᴇᴠᴇʟᴏᴘᴇʀ : https://wa.me/919544846609` }, { quoted: m })
+         
+	    }
             break
-            case 'sc': case 'script': {
-                reply('Script : https://github.com/Mikhaiel/Jimbru-MD\n Dont Forget To Give Star\n\n Instagram : https://instagram.com/the_real_mikhaiel\n Dont Forget To Follow')
+			
+		case 'sc': case 'script': {
+                anu = ``
+const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./Media/Jimbru.jpg')},
+                            hydratedFooterText: `◈ ʜᴇʏ🤚 ${pushname}
+			    
+ᴅᴏɴᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ɢɪᴠᴇ ꜱᴛᴀʀ & ꜰᴏʟʟᴏᴡ
+
+◈ ᴘʟᴇᴀꜱᴇ ꜱᴇʟᴇᴄᴛ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ◈
+`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'IG📍',
+                                    url: 'https://instagram.com/the_real_mikhaiel'
+                                }
+                            }, {
+                            	urlButton: {
+                                displayText: 'Script🔖',
+                                    url: 'https://github.com/Mikhaiel/Jimbru-MD'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'ALL MENU',
+                                    id: `${prefix}allmenu`
+                                }
+                                }, {
+                                quickReplyButton: {
+                                    displayText: 'LIST MENU',
+                                    id: `${prefix}command`
+                                }
+                                }, {
+                                quickReplyButton: {
+                                    displayText: 'Owner 💁‍♂️',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                XeonBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+                }
+break
+			
+			
+			
+			
+			
+           
+                reply('Script : https://github.com/Mikhaiel/Jimbru-MD \n Dont Forget To Give Star \n\n Instagram : https://instagram.com/the_real_mikhaiel\n Dont Forget To Follow')
             }
-            break
+			
+			
+			
+			
+			
+			
             case 'chat': {
                 if (!isCreator) throw mess.owner
                 if (!q) throw 'Option : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete'
