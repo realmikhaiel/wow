@@ -585,11 +585,11 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
 	    case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/6ba2aed566865a068e91f.jpg' }, caption: `*Hi bro ${m.pushName}*\n\n Bot Rental Price\n⭔ 250INR Per Group via Gpay/paytm/phonepe 1 Month\n\nFor more details, you can chat with the owner\nhttps://wa.me/916909137213 (Owner)\n\nDonate Me : \n\n⭔ Fampay : https://telegra.ph/file/6ba2aed566865a068e91f.jpg\n⭔ Paytm : https://telegra.ph/file/577bd4f28d90ca2c7f369.jpg` }, { quoted: m })
+                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/e5f7ef3d8d992ff296d4d.jpg' }, caption: `*Hi bro ${m.pushName}*\n\n Bot Rental Price\n⭔ 500 INR Per Group via Gpay/paytm/phonepe 1 Month\n\nFor more details, you can chat with the owner\nhttps://wa.me/919544846609 (Owner)` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
-                reply('Script : https://github.com/Mikhaiel/Jimbru-MD\n Dont Forget To Give Star\n\nYoutube : https://instagram.com/the_real_mikhaiel\n Dont Forget To Follow')
+                reply('Script : https://github.com/Mikhaiel/Jimbru-MD\n Dont Forget To Give Star\n\n Instagram : https://instagram.com/the_real_mikhaiel\n Dont Forget To Follow')
             }
             break
             case 'chat': {
