@@ -99,7 +99,7 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
         }
         
         const replay = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Follow Bot's Official Developer`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./Media/Jimbru.jpg`),"sourceUrl": "https://instagram.com/the_real_mikhaiel"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Follow Bot's Official Developer`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./Media/Jimbru.jpg`),"sourceUrl": "https://instagram.com/ganavasantham"}}}, { quoted: m})
         }
 try {
             let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -585,7 +585,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
 	    case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/1f735719f3e0736761eae.jpg' }, caption: `ʜᴇʏ ${m.pushName} \n ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ꜰᴏᴜɴᴅ ᴀɴʏᴛʜɪɴɢ ᴜꜱᴇꜰᴜʟ ᴀɴᴅ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ꜱᴜᴘᴘᴏʀᴛ ᴍᴇ, ᴛʜᴇɴ ʙᴜʏ ᴍᴇ ᴀ ᴄᴏꜰꜰᴇᴇ  ʙᴜʏ ᴍᴇ ᴀ ᴄᴏꜰꜰᴇᴇ . ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄᴏɴᴛʀɪʙᴜᴛᴇ ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ !  ᴀɴᴅ ᴍᴀɴʏ ᴛʜᴀɴᴋꜱ ɪɴ ᴀᴅᴠᴀɴᴄᴇ.  ꜰᴏʀ ᴀꜱ ᴡᴇ ᴡᴇʟʟ ᴋɴᴏᴡ \n ᴅᴇᴠᴇʟᴏᴘᴇʀ : https://wa.me/919544846609` }, { quoted: m })
+                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/1f735719f3e0736761eae.jpg' }, caption: `ʜᴇʏ ${m.pushName} \n ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ꜰᴏᴜɴᴅ ᴀɴʏᴛʜɪɴɢ ᴜꜱᴇꜰᴜʟ ᴀɴᴅ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ꜱᴜᴘᴘᴏʀᴛ ᴍᴇ ᴛʜᴇɴ ʙᴜʏ ᴍᴇ ᴀ ᴄᴏꜰꜰᴇᴇ  ʙᴜʏ ᴍᴇ ᴀ ᴄᴏꜰꜰᴇᴇ ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄᴏɴᴛʀɪʙᴜᴛᴇ ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ !  ᴀɴᴅ ᴍᴀɴʏ ᴛʜᴀɴᴋꜱ ɪɴ ᴀᴅᴠᴀɴᴄᴇ.  ꜰᴏʀ ᴀꜱ ᴡᴇ ᴡᴇʟʟ ᴋɴᴏᴡ \n ᴅᴇᴠᴇʟᴏᴘᴇʀ : https://wa.me/919544846609` }, { quoted: m })
          
 	    }
             break
@@ -642,7 +642,7 @@ break
 			
 			
            
-                reply('Script : https://github.com/Mikhaiel/Jimbru-MD \n Dont Forget To Give Star \n\n Instagram : https://instagram.com/the_real_mikhaiel\n Dont Forget To Follow')
+                reply('Script : https://github.com/Mikhaiel/Jimbru-MD \n Dont Forget To Give Star \n\n Instagram : https://instagram.com/ganavasantham\n Dont Forget To Follow')
             }
 			
 			
@@ -2413,7 +2413,7 @@ Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break 
-case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'doge':{
+                case 'alive': {
                 anu = `╭➤ 𝐈 𝐀𝐌 𝐒𝐓𝐈𝐋𝐋 𝐀𝐋𝐈𝐕𝐄 🧞\n│${pushname} \n│\n╰────────────────❋ཻུ۪۪⸙  \n╭◪ ᴄᴏᴅᴇᴅ ʙʏ ᴍɪᴋʜᴀɪᴇʟ \n╰─────────────────❋ཻུ۪۪⸙`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2425,7 +2425,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram ✔︎',
-                                    url: 'https:instagram.com/the_real_mikhaiel'
+                                    url: 'https:instagram.com/ganavasantham'
                                 }
                             }, {
                             	urlButton: {
@@ -2486,7 +2486,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'IG📍',
-                                    url: 'https://instagram.com/the_real_mikhaiel'
+                                    url: 'https://instagram.com/ganavasantham'
                                 }
                             }, {
                             	urlButton: {
@@ -2656,7 +2656,7 @@ case 'grupmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM',
-                                    url: 'https://instagram.com/the_real_mikhaiel'
+                                    url: 'https://instagram.com/ganavasantham'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2698,7 +2698,7 @@ case 'downloadmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM',
-                                    url: 'https://instagram.com/the_real_mikhaiel'
+                                    url: 'https://instagram.com/ganavasantham'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2735,7 +2735,7 @@ case 'downloadmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM',
-                                    url: 'https://instagram.com/the_real_mikhaiel'
+                                    url: 'https://instagram.com/ganavasantham'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2766,7 +2766,7 @@ case 'randommenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM',
-                                    url: 'https://instagram.com/the_real_mikhaiel'
+                                    url: 'https://instagram.com/ganavasantham'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2798,7 +2798,7 @@ case 'funmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM',
-                                    url: 'https://instagram.com/the_real_mikhaiel'
+                                    url: 'https://instagram.com/ganavasantham'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2838,7 +2838,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM',
-                                    url: 'https://instagram.com/the_real_mikhaiel'
+                                    url: 'https://instagram.com/ganavasantham'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2872,7 +2872,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM',
-                                    url: 'https://instagram.com/the_real_mikhaiel'
+                                    url: 'https://instagram.com/ganavasantham'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2930,7 +2930,7 @@ case 'horoscopemenukcodk': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM',
-                                    url: 'https://instagram.com/the_real_mikhaiel'
+                                    url: 'https://instagram.com/ganavasantham'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2968,7 +2968,7 @@ case 'convertmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM',
-                                    url: 'https://instagram.com/the_real_mikhaiel'
+                                    url: 'https://instagram.com/ganavasantham'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3008,7 +3008,7 @@ case 'nocategorymenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM',
-                                    url: 'https://instagram.com/the_real_mikhaiel'
+                                    url: 'https://instagram.com/ganavasantham'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3045,7 +3045,7 @@ case 'databasemenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'GITHUB 📍',
-                                    url: 'https://github.com/Mikhaiel/jinnh-'
+                                    url: 'https://github.com/Mikhaiel/Jimbru-MD'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3077,7 +3077,7 @@ case 'anonymouschatmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM',
-                                    url: 'https://instagram.com/the_real_mikhaiel'
+                                    url: 'https://instagram.com/ganavasantham'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3109,7 +3109,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM',
-                                    url: 'https://instagram.com/the_real_mikhaiel'
+                                    url: 'https://instagram.com/ganavasantham'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3146,7 +3146,7 @@ break
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'INSTAGRAM',
-                                    url: 'https://instagram.com/the_real_mikhaiel'
+                                    url: 'https://instagram.com/ganavasantham'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3302,10 +3302,8 @@ break
             }
 break
 case 'tqtt': 
-reply(`Thanks to
-Jimbroottan Fam Members
-Mikhaiel (Me)
-My family
+reply(`Thanks to Jimbroottan Fam Members
+Mikhaiel (Me)  My family
 And all friends who helped assemble this script !!!`)
 break
             default:
