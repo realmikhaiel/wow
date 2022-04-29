@@ -588,8 +588,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
                 XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/1f735719f3e0736761eae.jpg' }, caption: `ʜᴇʏ ${m.pushName} \n ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ꜰᴏᴜɴᴅ ᴀɴʏᴛʜɪɴɢ ᴜꜱᴇꜰᴜʟ ᴀɴᴅ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ꜱᴜᴘᴘᴏʀᴛ ᴍᴇ ᴛʜᴇɴ ʙᴜʏ ᴍᴇ ᴀ ᴄᴏꜰꜰᴇᴇ  ʙᴜʏ ᴍᴇ ᴀ ᴄᴏꜰꜰᴇᴇ ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄᴏɴᴛʀɪʙᴜᴛᴇ ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ !  ᴀɴᴅ ᴍᴀɴʏ ᴛʜᴀɴᴋꜱ ɪɴ ᴀᴅᴠᴀɴᴄᴇ.  ꜰᴏʀ ᴀꜱ ᴡᴇ ᴡᴇʟʟ ᴋɴᴏᴡ \n ᴅᴇᴠᴇʟᴏᴘᴇʀ : https://wa.me/919544846609` }, { quoted: m })
          
 	    }
-            break
-			
+            break	
 		case 'sc': case 'script': {
                 anu = ``
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -635,21 +634,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 }), { userJid: m.chat })
                 XeonBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
                 }
-break
-			
-			
-			
-			
-			
-           
-                reply('Script : https://github.com/Mikhaiel/Jimbru-MD \n Dont Forget To Give Star \n\n Instagram : https://instagram.com/ganavasantham\n Dont Forget To Follow')
-            }
-			
-			
-			
-			
-			
-			
+break		
             case 'chat': {
                 if (!isCreator) throw mess.owner
                 if (!q) throw 'Option : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete'
